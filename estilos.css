@@ -5,7 +5,7 @@
       title{background: rgb(23, 172, 110);color:rgb(231, 231, 231)} 
      p{background: rgb(23, 172, 110);color:rgb(231, 231, 231)} 
      nav{background: rgb(23, 172, 110);color:rgb(231, 231, 231)} 
-      
+      section{background: rgb(23, 172, 110);color:rgb(231, 231, 231)} 
  h1 {
      font: 32px bold sans-serif;
     
@@ -24,6 +24,37 @@ header,section,body,aside,nav,article{
 }
 
 div {
-    background: rgb(23, 172, 110);color:rgb(231, 231, 231)} 
+    background: rgb(23, 172, 110);color:rgb(231, 231, 231) 
+}
+
+section {min-height: 10vh; display:flex; align-items: center;
+
+}
+
+
+form {margin: auto;
+}
+form > div {
+    display:flex; 
+    background:#fff;
+    padding: 9px 22px 9px 26px;
+    border-radius: 30px;
+    border:2px solid #cad3dc;
+   
+}
+form input {
+border:none;
+background: transparent;
+font-weight: bold;
+padding-left: 24px;
+background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+background-size: 16px;
+background-repeat: no-repeat;
+width: 0px;
+transition: all 1s;
+}
+form input:focus {
+outline: none;
+width: 300px;
 }
 
